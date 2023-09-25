@@ -270,7 +270,7 @@
   height: 50px;
   background-color: white;
   border-radius: 10px;
-  border: 1px solid #eb6212;
+  border: 1px solid #2f6d08;
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -282,7 +282,7 @@
   position: absolute;
   width: 30px;
   height: 3px;
-  background: #eb6212;
+  background: #6b633b;
   border-radius: 4px;
   transition: 0.5s;
 }
