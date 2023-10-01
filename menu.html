@@ -172,7 +172,7 @@
 
           <div class="box_product" onclick="showPreview(this)">
             <img
-              src="/img/Cervezas/Aguila_Sixpackv2.jpg"
+              src="img/Cervezas/Aguila_SixpackV2.jpg"
               style="
                 width: 100%;
                 left: 50%;
@@ -932,7 +932,7 @@
               <h2 class="card-tittle">Coca-cola 350ml</h2>
               <p class="ellipsis">Botella de coca-cola de 350ml</p>
               <div class="container_box">
-                <h3 class="precio">$500</h3>
+                <h3 class="precio">$3500</h3>
                 <input
                   type="number"
                   min="1"
@@ -958,7 +958,7 @@
                 <h2 class="card-tittle">Coca-cola 350ml</h2>
                 <p>Botella de coca-cola de 350ml</p>
                 <div class="container_box">
-                  <h3 class="precio">$500</h3>
+                  <h3 class="precio">$3500</h3>
                   <input
                     type="number"
                     min="1"
@@ -990,7 +990,7 @@
               <h2 class="card-tittle">Seven up 500ml</h2>
               <p class="ellipsis">Botella de seven up 500ml</p>
               <div class="container_box">
-                <h3 class="precio">$500</h3>
+                <h3 class="precio">$3200</h3>
                 <input
                   type="number"
                   min="1"
@@ -1012,7 +1012,7 @@
                 <h2 class="card-tittle">Seven up 500ml</h2>
                 <p>Botella de seven up de 500ml</p>
                 <div class="container_box">
-                  <h3 class="precio">$500</h3>
+                  <h3 class="precio">$3200</h3>
                   <input
                     type="number"
                     min="1"
@@ -1044,7 +1044,7 @@
               <h2 class="card-tittle">Fanta 500ml</h2>
               <p class="ellipsis">Botella de fanta de 500ml</p>
               <div class="container_box">
-                <h3 class="precio">$500</h3>
+                <h3 class="precio">$2500</h3>
                 <input
                   type="number"
                   min="1"
@@ -1066,7 +1066,7 @@
                 <h2 class="card-tittle">Fanta 500ml</h2>
                 <p>Botella de fanta de 500ml</p>
                 <div class="container_box">
-                  <h3 class="precio">$500</h3>
+                  <h3 class="precio">$2500</h3>
                   <input
                     type="number"
                     min="1"
@@ -1098,7 +1098,7 @@
               <h2 class="card-tittle">Pepsi 250ml</h2>
               <p class="ellipsis">Botella de Pepsi de 250ml</p>
               <div class="container_box">
-                <h3 class="precio">$500</h3>
+                <h3 class="precio">$4000</h3>
                 <input
                   type="number"
                   min="1"
@@ -1120,7 +1120,7 @@
                 <h2 class="card-tittle">Pepsi 250ml</h2>
                 <p>Botella de Pepsi de 250ml</p>
                 <div class="container_box">
-                  <h3 class="precio">$500</h3>
+                  <h3 class="precio">$4000</h3>
                   <input
                     type="number"
                     min="1"
@@ -1152,7 +1152,7 @@
               <h2 class="card-tittle">Agua sin gas 500ml</h2>
               <p class="ellipsis">Botella de Agua sin gas de 500ml</p>
               <div class="container_box">
-                <h3 class="precio">$500</h3>
+                <h3 class="precio">2000</h3>
                 <input
                   type="number"
                   min="1"
@@ -1178,7 +1178,7 @@
                 <h2 class="card-tittle">Agua sin gas 500ml</h2>
                 <p>Botella de Agua sin gas de 500ml</p>
                 <div class="container_box">
-                  <h3 class="precio">$500</h3>
+                  <h3 class="precio">$2000</h3>
                   <input
                     type="number"
                     min="1"
@@ -1194,18 +1194,84 @@
             </div>
           </div>
         </div>
-
+        <!-- Licores -->
         <div class="bebidas_container active" id="bebidasContainer">
           <div class="box_product" onclick="showPreview(this)">
-            <img src="img/hamburguesa-simple.png" class="box-img" alt="" />
+            <img
+              src="img/Licores/Aguardiente Rojo/Aguardiente Botella Roja Litro.png"
+              style="
+                width: 48%;
+                left: 50%;
+                transform: translate(-50%);
+                top: -80px;
+              "
+              class="box-img"
+              alt=""
+            />
             <div class="box_content">
-              <h2 class="card-tittle">Hamburguesa clasica</h2>
+              <h2 class="card-tittle">Aguardiente Rojo Litro</h2>
+              <p class="ellipsis">Botella de aguardiente roja original de nectar 1000 Mililitro</p>
+              <div class="container_box">
+                <h3 class="precio">$36000</h3>
+                <input
+                  type="number"
+                  min="1"
+                  value="1"
+                  class="cantidad"
+                  style="width: 40px; text-align: center"
+                />
+              </div>
+              <button class="btnAgregar">
+                Agregar al carrito<i class="fa-solid fa-cart-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <div id="previewContainer" onclick="closePreview()">
+            <div class="previewCard">
+              <span class="closeButton" onclick="closePreview()">&times;</span>
+              <img
+                src="img/Licores/Aguardiente Rojo/Aguardiente Botella Roja Litro.png"
+                class="preview-img"
+                alt=""
+              />
+              <div class="preview_content">
+                <h2 class="card-tittle">Aguardiente Rojo Litro</h2>
+                <p>Botella de aguardiente roja original de nectar 1000 Mililitro</p>
+                <div class="container_box">
+                  <h3 class="precio">$36000</h3>
+                  <input
+                    type="number"
+                    min="1"
+                    value="1"
+                    class="cantidad"
+                    style="width: 40px; text-align: center"
+                  />
+                </div>
+                <button class="btnAgregar" data-id="2">
+                  Agregar al carrito <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="box_product" onclick="showPreview(this)">
+            <img
+              src="img/Licores/Aguardiente Verde/Aguardiente Botella Verde Litro.png"
+              style="
+                width: 48%;
+                left: 50%;
+                transform: translate(-50%);
+                top: -80px;
+              "
+              class="box-img"
+              alt=""
+            />
+            <div class="box_content">
+              <h2 class="card-tittle">Aguardiente Verde Litro</h2>
               <p class="ellipsis">
-                Carne de res, Pan de hamburguesa, Lechuga, Tomate, Cebolla,
-                Queso cheddar, Pepinillos, Salsa de hamburguesa
+                Botella de aguardiente verde original de nectar 1000 Mililitro
               </p>
               <div class="container_box">
-                <h3 class="precio">$500</h3>
+                <h3 class="precio">$32000</h3>
                 <input
                   type="number"
                   min="1"
@@ -1223,18 +1289,370 @@
             <div class="previewCard">
               <span class="closeButton" onclick="closePreview()">&times;</span>
               <img
-                src="img/hamburguesa-simple.png"
+                src="img/Licores/Aguardiente Verde/Aguardiente Botella Verde Litro.png"
                 class="preview-img"
                 alt=""
               />
               <div class="preview_content">
-                <h2 class="card-tittle">Hamburguesa clasica</h2>
-                <p>
-                  Carne de res, Pan de hamburguesa, Lechuga, Tomate, Cebolla,
-                  Queso cheddar, Pepinillos, Salsa de hamburguesa
-                </p>
+                <h2 class="card-tittle">Aguardiente Verde Litro</h2>
+                <p>Botella de aguardiente verde original de nectar 1000 Mililitro</p>
                 <div class="container_box">
-                  <h3 class="precio">$500</h3>
+                  <h3 class="precio">$32000</h3>
+                  <input
+                    type="number"
+                    min="1"
+                    value="1"
+                    class="cantidad"
+                    style="width: 40px; text-align: center"
+                  />
+                </div>
+                <button class="btnAgregar" data-id="2">
+                  Agregar al carrito <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="box_product" onclick="showPreview(this)">
+            <img
+              src="img/Licores/Ron Caldas/Ron__Caldas_Botella_Litro.jpg"
+              style="
+              width: 70%;
+              left: 50%;
+              transform: translate(-50%);
+              top: -80px;
+            "
+              class="box-img"
+              alt=""
+            />
+            <div class="box_content">
+              <h2 class="card-tittle">Ron Viejo Caldas Litro</h2>
+              <p class="ellipsis">
+                Botella de ron viejo caldas original 1000 Mililitro 
+              </p>
+              <div class="container_box">
+                <h3 class="precio">$38000</h3>
+                <input
+                  type="number"
+                  min="1"
+                  value="1"
+                  class="cantidad"
+                  style="width: 40px; text-align: center"
+                />
+              </div>
+              <button class="btnAgregar" data-id="1">
+                Agregar al carrito <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <div id="previewContainer" onclick="closePreview()">
+            <div class="previewCard">
+              <span class="closeButton" onclick="closePreview()">&times;</span>
+              <img
+                src="img/Licores/Ron Caldas/Ron__Caldas_Botella_Litro.jpg"
+                class="preview-img"
+                alt=""
+              />
+              <div class="preview_content">
+                <h2 class="card-tittle">Ron Viejo Caldas Litro</h2>
+                <p>Botella de ron viejo caldas original 1000 Mililitro </p>
+                <div class="container_box">
+                  <h3 class="precio">$32000</h3>
+                  <input
+                    type="number"
+                    min="1"
+                    value="1"
+                    class="cantidad"
+                    style="width: 40px; text-align: center"
+                  />
+                </div>
+                <button class="btnAgregar" data-id="2">
+                  Agregar al carrito <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="box_product" onclick="showPreview(this)">
+            <img
+              src="img/Licores/Ron Medellin/Ron_Medellin_Botella_Litro.jpg"
+              style="
+              width: 70%;
+              left: 50%;
+              transform: translate(-50%);
+              top: -80px;
+            "
+              class="box-img"
+              alt=""
+            />
+            <div class="box_content">
+              <h2 class="card-tittle">Ron Medellin Litro</h2>
+              <p class="ellipsis">
+                Botella de ron medellin original 1000 Mililitro 
+              </p>
+              <div class="container_box">
+                <h3 class="precio">$42000</h3>
+                <input
+                  type="number"
+                  min="1"
+                  value="1"
+                  class="cantidad"
+                  style="width: 40px; text-align: center"
+                />
+              </div>
+              <button class="btnAgregar" data-id="1">
+                Agregar al carrito <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <div id="previewContainer" onclick="closePreview()">
+            <div class="previewCard">
+              <span class="closeButton" onclick="closePreview()">&times;</span>
+              <img
+                src="img/Licores/Ron Medellin/Ron_Medellin_Botella_Litro.jpg"
+                class="preview-img"
+                alt=""
+              />
+              <div class="preview_content">
+                <h2 class="card-tittle">Ron Medellin Litro</h2>
+                <p>Botella de ron medellin original 1000 Mililitro </p>
+                <div class="container_box">
+                  <h3 class="precio">$42000</h3>
+                  <input
+                    type="number"
+                    min="1"
+                    value="1"
+                    class="cantidad"
+                    style="width: 40px; text-align: center"
+                  />
+                </div>
+                <button class="btnAgregar" data-id="2">
+                  Agregar al carrito <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="box_product" onclick="showPreview(this)">
+            <img
+              src="img/Licores/Aguardiente Rojo/Aguardiente Botella Roja Media.png"
+              style="
+              width: 35%;
+              left: 50%;
+              transform: translate(-50%);
+              top: -80px;
+            "
+              class="box-img"
+              alt=""
+            />
+            <div class="box_content">
+              <h2 class="card-tittle">Aguardiente Rojo Media</h2>
+              <p class="ellipsis">
+                Botella de aguardiente roja original 500 Mililitro 
+              </p>
+              <div class="container_box">
+                <h3 class="precio">$19000</h3>
+                <input
+                  type="number"
+                  min="1"
+                  value="1"
+                  class="cantidad"
+                  style="width: 40px; text-align: center"
+                />
+              </div>
+              <button class="btnAgregar" data-id="1">
+                Agregar al carrito <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <div id="previewContainer" onclick="closePreview()">
+            <div class="previewCard">
+              <span class="closeButton" onclick="closePreview()">&times;</span>
+              <img
+                src="img/Licores/Aguardiente Rojo/Aguardiente Botella Roja Media.png"
+                class="preview-img"
+                alt=""
+              />
+              <div class="preview_content">
+                <h2 class="card-tittle">Aguardiente Rojo Media</h2>
+                <p> Botella de aguardiente roja original 500 Mililitro </p>
+                <div class="container_box">
+                  <h3 class="precio">$19000</h3>
+                  <input
+                    type="number"
+                    min="1"
+                    value="1"
+                    class="cantidad"
+                    style="width: 40px; text-align: center"
+                  />
+                </div>
+                <button class="btnAgregar" data-id="2">
+                  Agregar al carrito <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="box_product" onclick="showPreview(this)">
+            <img
+              src="img/Licores/Aguardiente Verde/Aguardiente Botella Verde Media.png"
+              style="
+              width: 35%;
+              left: 50%;
+              transform: translate(-50%);
+              top: -80px;
+            "
+              class="box-img"
+              alt=""
+            />
+            <div class="box_content">
+              <h2 class="card-tittle">Aguardiente Verde Media</h2>
+              <p class="ellipsis">
+                Botella de aguardiente verde original 500 Mililitro 
+              </p>
+              <div class="container_box">
+                <h3 class="precio">$16000</h3>
+                <input
+                  type="number"
+                  min="1"
+                  value="1"
+                  class="cantidad"
+                  style="width: 40px; text-align: center"
+                />
+              </div>
+              <button class="btnAgregar" data-id="1">
+                Agregar al carrito <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <div id="previewContainer" onclick="closePreview()">
+            <div class="previewCard">
+              <span class="closeButton" onclick="closePreview()">&times;</span>
+              <img
+                src="img/Licores/Aguardiente Verde/Aguardiente Botella Verde Media.png"
+                class="preview-img"
+                alt=""
+              />
+              <div class="preview_content">
+                <h2 class="card-tittle">Aguardiente Verde Media</h2>
+                <p> Botella de aguardiente verde original 500 Mililitro </p>
+                <div class="container_box">
+                  <h3 class="precio">$16000</h3>
+                  <input
+                    type="number"
+                    min="1"
+                    value="1"
+                    class="cantidad"
+                    style="width: 40px; text-align: center"
+                  />
+                </div>
+                <button class="btnAgregar" data-id="2">
+                  Agregar al carrito <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="box_product" onclick="showPreview(this)">
+            <img
+              src="img/Licores/Ron Caldas/Ron_Caldas_Botella_Media.jpg"
+              style="
+              width: 38%;
+              left: 50%;
+              transform: translate(-50%);
+              top: -80px;
+            "
+              class="box-img"
+              alt=""
+            />
+            <div class="box_content">
+              <h2 class="card-tittle">Ron Viejo Caldas Media</h2>
+              <p class="ellipsis">
+                Botella de ron viejo caldas original 500 Mililitro
+              </p>
+              <div class="container_box">
+                <h3 class="precio">$19000</h3>
+                <input
+                  type="number"
+                  min="1"
+                  value="1"
+                  class="cantidad"
+                  style="width: 40px; text-align: center"
+                />
+              </div>
+              <button class="btnAgregar" data-id="1">
+                Agregar al carrito <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <div id="previewContainer" onclick="closePreview()">
+            <div class="previewCard">
+              <span class="closeButton" onclick="closePreview()">&times;</span>
+              <img
+                src="img/Licores/Ron Caldas/Ron_Caldas_Botella_Media.jpg"
+                class="preview-img"
+                alt=""
+              />
+              <div class="preview_content">
+                <h2 class="card-tittle">Ron Viejo Caldas Media</h2>
+                <p> Botella de ron viejo caldas original 500 Mililitro </p>
+                <div class="container_box">
+                  <h3 class="precio">$19000</h3>
+                  <input
+                    type="number"
+                    min="1"
+                    value="1"
+                    class="cantidad"
+                    style="width: 40px; text-align: center"
+                  />
+                </div>
+                <button class="btnAgregar" data-id="2">
+                  Agregar al carrito <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="box_product" onclick="showPreview(this)">
+            <img
+              src="img/Licores/Ron Medellin/Ron_Medellin_Botella_Media.jpg"
+              style="
+              width: 80%;
+              left: 50%;
+              transform: translate(-50%);
+              top: -80px;
+            "
+              class="box-img"
+              alt=""
+            />
+            <div class="box_content">
+              <h2 class="card-tittle">Ron Medellin Media</h2>
+              <p class="ellipsis">
+                Botella de ron medellin original 500 Mililitro
+              </p>
+              <div class="container_box">
+                <h3 class="precio">$22000</h3>
+                <input
+                  type="number"
+                  min="1"
+                  value="1"
+                  class="cantidad"
+                  style="width: 40px; text-align: center"
+                />
+              </div>
+              <button class="btnAgregar" data-id="1">
+                Agregar al carrito <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <div id="previewContainer" onclick="closePreview()">
+            <div class="previewCard">
+              <span class="closeButton" onclick="closePreview()">&times;</span>
+              <img
+                src="img/Licores/Ron Medellin/Ron_Medellin_Botella_Media.jpg"
+                class="preview-img"
+                alt=""
+              />
+              <div class="preview_content">
+                <h2 class="card-tittle">Ron Medellin Media</h2>
+                <p>Botella de ron medellin original 500 Mililitro </p>
+                <div class="container_box">
+                  <h3 class="precio">$22000</h3>
                   <input
                     type="number"
                     min="1"
@@ -1250,7 +1668,7 @@
             </div>
           </div>
         </div>
-
+        <!-- Galgerias -->
         <div class="postres_container active" id="postresContainer">
 
 
