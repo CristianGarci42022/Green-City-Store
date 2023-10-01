@@ -18,7 +18,7 @@
   padding: 0 7%;
   margin: 0 auto;
   z-index: 999;
-  background:#91af7d
+  background:#91af7d;
 }
 
 .navegador .logo {
@@ -414,8 +414,6 @@ h1 span {
 .iconos_menu .hamburguesa_icon.active,
 .iconos_menu .bebidas_icon.active,
 .iconos_menu .postres_icon.active {
-  /* background: #dedede;
-  color: #6b633b; */
   background: #dedede;
   color: #2f6d08;
 }
